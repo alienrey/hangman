@@ -4,12 +4,18 @@
 
 @media screen and (max-width: 600px){
     .flex-headContainer{
-        font-size: x-small;
+        font-size: xx-small;
     }
 
-    .astronaut-photo {
-        width: 300px;  
-      }
+
+    .picture-container{
+        text-align: center;
+        width: 100%;
+        padding-top: 10%;
+    }
+
+    
+
 }
 
 
@@ -36,6 +42,7 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+
 .astronaut-photo {
     justify-content: center;
     border-radius: 15%;
@@ -56,9 +63,7 @@
     font-weight: bold;
     border: none;
     color: white;
-    padding: 15px 30px;
-    text-align: center;
-    text-decoration: none;
+    padding: 1% 2%;
     display: inline-block;
     font-size: 20px;
     margin-top: 40px;
@@ -94,12 +99,4 @@
 .keyboard-button:disabled {
     opacity: 0.4;
     cursor: not-allowed;
-}
-
-.flex-container{
-    display: flex;
-    justify-content: center;
-    margin: 20%px;
-    padding: 50%;
-    font-size: 30%;
 }

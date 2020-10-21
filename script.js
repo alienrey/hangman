@@ -99,7 +99,7 @@ function getEndTime(secondsToAdd = 30){
 
 function getCurrentAstronautState(){
     if(lives == 5){
-        document.getElementById('').src = './images/1.png'
+        document.getElementById('astronaut-state').src = './images/1.png'
     }
     else if(lives == 4){
         document.getElementById('astronaut-state').src='./images/2.png'
@@ -145,6 +145,7 @@ function nextStage(){
     score++
     document.getElementById('score-ui').innerHTML = `Score: ${score}`
     lives = 5
+    getCurrentAstronautState()
     guesses = []
     hasWon = false
     wordToGuess = getRandomWord()

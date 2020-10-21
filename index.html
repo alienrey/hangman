@@ -14,7 +14,7 @@
     <div style="text-align: center;">
         <h1 class="score" id="score-ui">Score: 0</h1>
     </div>
-    <div style="text-align: center; margin-top: 20px;">
+    <div class="picture-container" style="text-align: center;">
         <img class="astronaut-photo" id="astronaut-state" src="./images/1.png" alt=""></img>
     </div>
     
@@ -22,7 +22,7 @@
         <h1 class="word-to-guess" id="letter-ui"></h1>
     </div>
     <div class="timer-container">
-        <div class="flex-timer-container">Time Remaining: </div>
+        <div>Time Remaining: </div>
         <div id="timer" class="flex-timer-container">30 seconds</div>
         <button class="reset-button" type= "button" onclick="window.location.reload()">reset</button>
     </div>
@@ -55,7 +55,7 @@
         <button id="Y" class="keyboard-button" type= "button" onclick="guess('Y')">Y</button>
         <button id="Z" class="keyboard-button" type= "button" onclick="guess('Z')">Z</button>
     </div>
-    <script src="./index.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
 
