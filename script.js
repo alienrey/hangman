@@ -1,3 +1,7 @@
+function helloThere(){
+    console.log("Hello There")
+}
+
 function guess(userSelectedLetter){
     
     let solvedLetters 
